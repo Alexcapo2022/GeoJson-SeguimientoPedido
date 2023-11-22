@@ -1,29 +1,24 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './Mapa.css';
 import areaDeAtencionGeoJSON from '../../components/areaDeAtencionGeoJSON';
+// Tu GeoJSON
+
 
 const Mapa = () => {
-  const coordinates = areaDeAtencionGeoJSON.features[0].geometry.coordinates[0];
-
   return (
     <MapContainer center={[-12.0464, -77.0428]} zoom={13} scrollWheelZoom={false} className="mapa">
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[-12.0464, -77.0428]}>
+      <Marker position={[-12.0972,-76.9854]}>
         <Popup>
-          Lima, Perú. <br /> ¡Bienvenido!
+          Zona de Reparto <br /> <b>BookSwap</b>
         </Popup>
       </Marker>
-      {coordinates.map((coordinate, index) => (
-        <Marker key={index} position={[coordinate[1], coordinate[0]]}>
-          <Popup>
-            Marcador {index + 1}
-          </Popup>
-        </Marker>
-      ))}
+      {/* Nueva capa GeoJSON para el área de atención */}
+      <GeoJSON data={areaDeAtencionGeoJSON} />
     </MapContainer>
   );
 };
