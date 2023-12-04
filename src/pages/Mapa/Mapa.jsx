@@ -20,7 +20,7 @@ const Mapa = () => {
       {coordinates.map((coordinate, index) => (
         <Marker key={index} position={[coordinate[1], coordinate[0]]}>
           <Popup>
-            Marcador {index + 1}
+            Local {index + 1}
           </Popup>
         </Marker>
       ))}
