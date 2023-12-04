@@ -111,7 +111,7 @@ El segundo escenario se centra en la delimitación de la zona de reparto para se
 El escenario más complejo implica el seguimiento en tiempo real de la ruta de un pedido desde un punto A hasta un punto B. GeoJSON se utiliza para representar la ruta de entrega, y la aplicación actualiza dinámicamente la posición del pedido en el mapa. Esto proporciona una experiencia interactiva y transparente para los usuarios que desean realizar un seguimiento en tiempo real de sus pedidos.
 
 ### 3.2 Pasos para la Demo
-**VIDEO DE LA DEMO:** [https://ulima-edu-pe.zoom.us/rec/share/ovN_cLx-ZMEdZtXwmogJnc-9_C_4vG7KzgPIOPRDX1ZK92ZfIUfOwBhz2wUkvoFS.JLbswE7WGMkQu39I] 
+**VIDEO DE LA DEMO:** [https://ulima-edu-pe.zoom.us/rec/share/ovN_cLx-ZMEdZtXwmogJnc-9_C_4vG7KzgPIOPRDX1ZK92ZfIUfOwBhz2wUkvoFS.JLbswE7WGMkQu39I)
 1. Instalación de Dependencias:
 
 Asegúrese de tener las dependencias necesarias instaladas, incluyendo las librerías de manejo de mapas y visualización de GeoJSON.
