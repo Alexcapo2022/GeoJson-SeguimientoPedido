@@ -88,8 +88,11 @@ MongoDB destaca por su capacidad para gestionar datos geoespaciales gracias a su
 #### PostgreSQL/PostGIS:
 
 PostgreSQL, combinado con la extensión PostGIS, ofrece una solución robusta y completa para el almacenamiento y manipulación de datos geoespaciales. PostGIS agrega funciones espaciales avanzadas a PostgreSQL, permitiendo realizar consultas y análisis geoespaciales complejos. Esta combinación es ideal para proyectos que necesitan aprovechar al máximo las capacidades de una base de datos relacional junto con la potencia de las operaciones espaciales. La comunidad activa y el soporte continuo garantizan que PostgreSQL/PostGIS evolucione con las crecientes demandas de aplicaciones geoespaciales modernas.
+![image](https://github.com/Alexcapo2022/GeoJson-SeguimientoPedido/assets/98053517/b7d82131-291c-4337-bf7d-17c5f3095e8a)
 
 Estas consideraciones ofrecen un panorama más detallado sobre cómo seleccionar la base de datos espacial adecuada para cada proyecto, asegurando una implementación eficiente y exitosa de GeoJSON en el desarrollo tecnológico. Esto, a su vez, abre las puertas a la creación de aplicaciones geoespaciales más potentes y versátiles.
+![image](https://github.com/Alexcapo2022/GeoJson-SeguimientoPedido/assets/98053517/f9dc484d-0f75-4da9-bd62-15aeb538ca3f)
+
 
 
 ## 3. Demo
